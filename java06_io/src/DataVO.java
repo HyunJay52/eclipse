@@ -5,7 +5,7 @@ public class DataVO implements Serializable{
 	private int num;
 	private String name;
 	private String tel;
-	private String email;
+	private String email;  
 	
 	public DataVO() {
 		// TODO Auto-generated constructor stub

@@ -5,7 +5,8 @@ import java.util.ArrayList;
 import java.util.Calendar;
 
 public class ObjectInputStreamTest {
-
+  
+	
 	public ObjectInputStreamTest() {
 		try {
 			//파일의 객체를 가져오는 것
@@ -23,6 +24,7 @@ public class ObjectInputStreamTest {
 			Calendar date = (Calendar)al.get(1);
 			FileCopy copy = (FileCopy)al.get(2);
 			System.out.println("arrayLIst.string->"+username);
+	
 			System.out.println("arrayLIst.calendar-?"+date);
 			copy.start(); //filecopy
 			System.out.printf("dateVO->%d, %s, %s, %s",vo.getNum(),

@@ -19,6 +19,7 @@ public class ObjectOutPutStreamTest {
 		lst.add(now);
 		lst.add(fc);
 		
+		
 		DataVO vo = new DataVO();
 		vo.setNum(1234);
 		vo.setName("세종대왕");

@@ -14,6 +14,7 @@ public class RandomAccessFileTest {
 			
 			String txt2 = "Sample Date"; //getBytes() 스트링 -->바이트 배열변경
 			
+			
 			//원하는 index 위치 이동
 			raf.seek(3); //seek 원하는 위치로 이동하는 기능
 			//byte txtArr[] = txt2.getBytes() 이런식으로 해도 된다.
